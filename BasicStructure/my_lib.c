@@ -3,6 +3,6 @@
 
 void hallo_my_libcc() {
 
-    printf("My BasicStruckture \n");
+    printf("My BasicStruckture advanced\n");
 
 }
