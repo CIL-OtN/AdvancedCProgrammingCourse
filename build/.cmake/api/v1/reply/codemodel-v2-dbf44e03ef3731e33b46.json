@@ -1,0 +1,94 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.14"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "BasicStructure",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "BasicStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "AdvancedCProgrammingCourse"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "BasicStructure_Project",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "BasicStructure_Executable::@1da8bc17b7ae10c4f0fb",
+					"jsonFile" : "target-BasicStructure_Executable-Debug-5c4bb398e20e088e6977.json",
+					"name" : "BasicStructure_Executable",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "MyLib::@1da8bc17b7ae10c4f0fb",
+					"jsonFile" : "target-MyLib-Debug-c22cba44cfb84ee0734e.json",
+					"name" : "MyLib",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build",
+		"source" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 2
+	}
+}

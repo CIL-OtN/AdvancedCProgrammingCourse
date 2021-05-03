@@ -1,0 +1,6 @@
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles/rebuild_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/CMakeFiles/MyLib.dir
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/CMakeFiles/BasicStructure_Executable.dir
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/CMakeFiles/edit_cache.dir
+C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/CMakeFiles/rebuild_cache.dir

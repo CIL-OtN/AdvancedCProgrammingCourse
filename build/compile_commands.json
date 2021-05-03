@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe   -g -o CMakeFiles/MyLib.dir/my_lib.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure/my_lib.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure/my_lib.c"
+},
+{
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure",
+  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe   -g -o CMakeFiles/BasicStructure_Executable.dir/main.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure/main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure/main.c"
+}
+]
