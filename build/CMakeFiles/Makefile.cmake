@@ -25,6 +25,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
   "../BasicStructure/CMakeLists.txt"
+  "../BasicStructure/app/CMakeLists.txt"
+  "../BasicStructure/src/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
@@ -41,10 +43,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "BasicStructure/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "BasicStructure/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "BasicStructure/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "BasicStructure/CMakeFiles/MyLib.dir/DependInfo.cmake"
-  "BasicStructure/CMakeFiles/BasicStructure_Executable.dir/DependInfo.cmake"
+  "BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/DependInfo.cmake"
+  "BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/DependInfo.cmake"
   )

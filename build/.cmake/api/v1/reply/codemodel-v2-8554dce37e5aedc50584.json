@@ -19,17 +19,45 @@
 				},
 				{
 					"build" : "BasicStructure",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "BasicStructure",
+					"source" : "BasicStructure"
+				},
+				{
+					"build" : "BasicStructure/src",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "BasicStructure/src",
 					"targetIndexes" : 
 					[
-						0,
 						1
+					]
+				},
+				{
+					"build" : "BasicStructure/app",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "BasicStructure/app",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -50,7 +78,9 @@
 				{
 					"directoryIndexes" : 
 					[
-						1
+						1,
+						2,
+						3
 					],
 					"name" : "BasicStructure_Project",
 					"parentIndex" : 0,
@@ -64,17 +94,17 @@
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "BasicStructure_Executable::@1da8bc17b7ae10c4f0fb",
-					"jsonFile" : "target-BasicStructure_Executable-Debug-5c4bb398e20e088e6977.json",
+					"directoryIndex" : 3,
+					"id" : "BasicStructure_Executable::@050971cbb2b880fb9e57",
+					"jsonFile" : "target-BasicStructure_Executable-Debug-456322a08ab6ad2ce21e.json",
 					"name" : "BasicStructure_Executable",
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 1,
-					"id" : "MyLib::@1da8bc17b7ae10c4f0fb",
-					"jsonFile" : "target-MyLib-Debug-c22cba44cfb84ee0734e.json",
-					"name" : "MyLib",
+					"directoryIndex" : 2,
+					"id" : "BasicStructure_MyLib::@db1c88eac2697a3f90fa",
+					"jsonFile" : "target-BasicStructure_MyLib-Debug-c8c6ced961703e85b0b8.json",
+					"name" : "BasicStructure_MyLib",
 					"projectIndex" : 1
 				}
 			]

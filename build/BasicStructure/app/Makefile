@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/app//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/app/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/app/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/app/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/app/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named BasicStructure_MyLib
+# Convenience name for target.
+BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule
+.PHONY : BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule
 
-# Build rule for target.
-BasicStructure_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure_MyLib
-.PHONY : BasicStructure_MyLib
-
-# fast build rule for target.
-BasicStructure_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/build.make BasicStructure/src/CMakeFiles/BasicStructure_MyLib.dir/build
-.PHONY : BasicStructure_MyLib/fast
-
-#=============================================================================
-# Target rules for targets named BasicStructure_Executable
-
-# Build rule for target.
-BasicStructure_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure_Executable
+# Convenience name for target.
+BasicStructure_Executable: BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/rule
 .PHONY : BasicStructure_Executable
 
 # fast build rule for target.
 BasicStructure_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build
 .PHONY : BasicStructure_Executable/fast
+
+main.obj: main.c.obj
+.PHONY : main.obj
+
+# target to build an object file
+main.c.obj:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/main.c.obj
+.PHONY : main.c.obj
+
+main.i: main.c.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.c.i:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/main.c.i
+.PHONY : main.c.i
+
+main.s: main.c.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.c.s:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/app/CMakeFiles/BasicStructure_Executable.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -151,7 +163,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... BasicStructure_Executable"
-	@echo "... BasicStructure_MyLib"
+	@echo "... main.obj"
+	@echo "... main.i"
+	@echo "... main.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

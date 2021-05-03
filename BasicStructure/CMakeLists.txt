@@ -4,11 +4,17 @@ set(PROJECT "BasicStructure")
 
 project("${PROJECT}_Project" VERSION 1.0.0 LANGUAGES C)
 
-set(LIBRARY_NAME "MyLib")
-set(MAIN "${PROJECT}_Executable")
+# set(CMAKE_C_STANDARD            20)
+# set(CMAKE_C_STANDARD_REQUIRED   ON)
+# set(CMAKE_C_EXTENSIONS          ON)
 
-add_library(${LIBRARY_NAME} OBJECT my_lib.c) # Muss vor add_executable() stehen
 
-add_executable(${MAIN} main.c)
+# Project/Library Names
+set(LIBRARY_NAME    "${PROJECT}_MyLib")
+set(MAIN            "${PROJECT}_Executable")
 
-target_link_libraries(${MAIN} ${LIBRARY_NAME})
+# Add libraries
+add_subdirectory("${PROJECT_SOURCE_DIR}/src/")
+
+# Add executables
+add_subdirectory("${PROJECT_SOURCE_DIR}/app/")

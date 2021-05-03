@@ -116,82 +116,6 @@ depend:
 	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-# Convenience name for target.
-BasicStructure/CMakeFiles/MyLib.dir/rule:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/CMakeFiles/MyLib.dir/rule
-.PHONY : BasicStructure/CMakeFiles/MyLib.dir/rule
-
-# Convenience name for target.
-MyLib: BasicStructure/CMakeFiles/MyLib.dir/rule
-.PHONY : MyLib
-
-# fast build rule for target.
-MyLib/fast:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/MyLib.dir/build.make BasicStructure/CMakeFiles/MyLib.dir/build
-.PHONY : MyLib/fast
-
-# Convenience name for target.
-BasicStructure/CMakeFiles/BasicStructure_Executable.dir/rule:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BasicStructure/CMakeFiles/BasicStructure_Executable.dir/rule
-.PHONY : BasicStructure/CMakeFiles/BasicStructure_Executable.dir/rule
-
-# Convenience name for target.
-BasicStructure_Executable: BasicStructure/CMakeFiles/BasicStructure_Executable.dir/rule
-.PHONY : BasicStructure_Executable
-
-# fast build rule for target.
-BasicStructure_Executable/fast:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/CMakeFiles/BasicStructure_Executable.dir/build
-.PHONY : BasicStructure_Executable/fast
-
-main.obj: main.c.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.c.obj:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/CMakeFiles/BasicStructure_Executable.dir/main.c.obj
-.PHONY : main.c.obj
-
-main.i: main.c.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.c.i:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/CMakeFiles/BasicStructure_Executable.dir/main.c.i
-.PHONY : main.c.i
-
-main.s: main.c.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.c.s:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/BasicStructure_Executable.dir/build.make BasicStructure/CMakeFiles/BasicStructure_Executable.dir/main.c.s
-.PHONY : main.c.s
-
-my_lib.obj: my_lib.c.obj
-.PHONY : my_lib.obj
-
-# target to build an object file
-my_lib.c.obj:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/MyLib.dir/build.make BasicStructure/CMakeFiles/MyLib.dir/my_lib.c.obj
-.PHONY : my_lib.c.obj
-
-my_lib.i: my_lib.c.i
-.PHONY : my_lib.i
-
-# target to preprocess a source file
-my_lib.c.i:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/MyLib.dir/build.make BasicStructure/CMakeFiles/MyLib.dir/my_lib.c.i
-.PHONY : my_lib.c.i
-
-my_lib.s: my_lib.c.s
-.PHONY : my_lib.s
-
-# target to generate assembly for a file
-my_lib.c.s:
-	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f BasicStructure/CMakeFiles/MyLib.dir/build.make BasicStructure/CMakeFiles/MyLib.dir/my_lib.c.s
-.PHONY : my_lib.c.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -200,14 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... BasicStructure_Executable"
-	@echo "... MyLib"
-	@echo "... main.obj"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... my_lib.obj"
-	@echo "... my_lib.i"
-	@echo "... my_lib.s"
 .PHONY : help
 
 

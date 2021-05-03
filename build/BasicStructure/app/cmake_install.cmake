@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure
+# Install script for directory: C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,12 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "C:/cygwin64/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/src/cmake_install.cmake")
-  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure/app/cmake_install.cmake")
-
 endif()
 
