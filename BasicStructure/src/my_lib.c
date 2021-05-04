@@ -2,5 +2,5 @@
 #include "my_lib.h"
 
 void hallo_my_libcc() {
-    printf("My BasicStruckture Funktion in my_lib.c \n");
+    printf("A test basic struckture funktion in my_lib.c \n");
 }

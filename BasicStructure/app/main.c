@@ -3,8 +3,9 @@
 
 int main() {
 
+    printf("Hello from BasicStructure \n");
+
     hallo_my_libcc();
-    printf("Hallo Nina mit Strucktur\n");
 
     return 0;
 }
