@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named VariableLenghtArrays_MyLib
-
-# Build rule for target.
-VariableLenghtArrays_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VariableLenghtArrays_MyLib
-.PHONY : VariableLenghtArrays_MyLib
-
-# fast build rule for target.
-VariableLenghtArrays_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build
-.PHONY : VariableLenghtArrays_MyLib/fast
-
-#=============================================================================
-# Target rules for targets named VariableLenghtArrays_Executable
-
-# Build rule for target.
-VariableLenghtArrays_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VariableLenghtArrays_Executable
-.PHONY : VariableLenghtArrays_Executable
-
-# fast build rule for target.
-VariableLenghtArrays_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/app/CMakeFiles/VariableLenghtArrays_Executable.dir/build.make 1_Variable_Lenght_Arrays/app/CMakeFiles/VariableLenghtArrays_Executable.dir/build
-.PHONY : VariableLenghtArrays_Executable/fast
 
 # Help Target
 help:
@@ -150,8 +124,6 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... VariableLenghtArrays_Executable"
-	@echo "... VariableLenghtArrays_MyLib"
 .PHONY : help
 
 
@@ -163,6 +135,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

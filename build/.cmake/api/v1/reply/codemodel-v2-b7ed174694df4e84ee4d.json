@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "BasicStructure",
+					"build" : "1_Variable_Lenght_Arrays",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "BasicStructure"
+					"source" : "1_Variable_Lenght_Arrays"
 				},
 				{
-					"build" : "BasicStructure/src",
+					"build" : "1_Variable_Lenght_Arrays/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "BasicStructure/src",
+					"source" : "1_Variable_Lenght_Arrays/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "BasicStructure/app",
+					"build" : "1_Variable_Lenght_Arrays/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "BasicStructure/app",
+					"source" : "1_Variable_Lenght_Arrays/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "BasicStructure_Project",
+					"name" : "VariableLenghtArrays_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "BasicStructure_Executable::@050971cbb2b880fb9e57",
-					"jsonFile" : "target-BasicStructure_Executable-Debug-456322a08ab6ad2ce21e.json",
-					"name" : "BasicStructure_Executable",
+					"id" : "VariableLenghtArrays_Executable::@65575a81fbb4340c914b",
+					"jsonFile" : "target-VariableLenghtArrays_Executable-Debug-b1d725da9402171db0e3.json",
+					"name" : "VariableLenghtArrays_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "BasicStructure_MyLib::@db1c88eac2697a3f90fa",
-					"jsonFile" : "target-BasicStructure_MyLib-Debug-c8c6ced961703e85b0b8.json",
-					"name" : "BasicStructure_MyLib",
+					"id" : "VariableLenghtArrays_MyLib::@85148b32a149bd03ba41",
+					"jsonFile" : "target-VariableLenghtArrays_MyLib-Debug-b4b972c12ffbe1aff3dc.json",
+					"name" : "VariableLenghtArrays_MyLib",
 					"projectIndex" : 1
 				}
 			]

@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays/src//CMakeFiles/progress.marks
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/src/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,44 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named VariableLenghtArrays_MyLib
+# Convenience name for target.
+1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/rule:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/rule
+.PHONY : 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/rule
 
-# Build rule for target.
-VariableLenghtArrays_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VariableLenghtArrays_MyLib
+# Convenience name for target.
+VariableLenghtArrays_MyLib: 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/rule
 .PHONY : VariableLenghtArrays_MyLib
 
 # fast build rule for target.
 VariableLenghtArrays_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build
 .PHONY : VariableLenghtArrays_MyLib/fast
 
-#=============================================================================
-# Target rules for targets named VariableLenghtArrays_Executable
+my_lib.obj: my_lib.c.obj
+.PHONY : my_lib.obj
 
-# Build rule for target.
-VariableLenghtArrays_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 VariableLenghtArrays_Executable
-.PHONY : VariableLenghtArrays_Executable
+# target to build an object file
+my_lib.c.obj:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/my_lib.c.obj
+.PHONY : my_lib.c.obj
 
-# fast build rule for target.
-VariableLenghtArrays_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/app/CMakeFiles/VariableLenghtArrays_Executable.dir/build.make 1_Variable_Lenght_Arrays/app/CMakeFiles/VariableLenghtArrays_Executable.dir/build
-.PHONY : VariableLenghtArrays_Executable/fast
+my_lib.i: my_lib.c.i
+.PHONY : my_lib.i
+
+# target to preprocess a source file
+my_lib.c.i:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/my_lib.c.i
+.PHONY : my_lib.c.i
+
+my_lib.s: my_lib.c.s
+.PHONY : my_lib.s
+
+# target to generate assembly for a file
+my_lib.c.s:
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(MAKE) $(MAKESILENT) -f 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/build.make 1_Variable_Lenght_Arrays/src/CMakeFiles/VariableLenghtArrays_MyLib.dir/my_lib.c.s
+.PHONY : my_lib.c.s
 
 # Help Target
 help:
@@ -150,8 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... VariableLenghtArrays_Executable"
 	@echo "... VariableLenghtArrays_MyLib"
+	@echo "... my_lib.obj"
+	@echo "... my_lib.i"
+	@echo "... my_lib.s"
 .PHONY : help
 
 
@@ -163,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

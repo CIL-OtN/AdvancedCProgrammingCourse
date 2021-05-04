@@ -1,0 +1,3 @@
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\VariableLenghtArrays_Executable.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\VariableLenghtArrays_Executable.dir/objects.a @CMakeFiles\VariableLenghtArrays_Executable.dir\objects1.rsp
+C:\MinGW\bin\mingw32-gcc.exe -g -Wl,--whole-archive CMakeFiles\VariableLenghtArrays_Executable.dir/objects.a -Wl,--no-whole-archive -o VariableLenghtArrays_Executable.exe -Wl,--out-implib,libVariableLenghtArrays_Executable.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\VariableLenghtArrays_Executable.dir\linklibs.rsp

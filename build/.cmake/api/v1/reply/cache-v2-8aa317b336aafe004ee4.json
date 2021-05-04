@@ -26,30 +26,6 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse"
 		},
 		{
-			"name" : "BasicStructure_Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure"
-		},
-		{
-			"name" : "BasicStructure_Project_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -1216,6 +1192,30 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "VariableLenghtArrays_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays"
+		},
+		{
+			"name" : "VariableLenghtArrays_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/1_Variable_Lenght_Arrays"
 		}
 	],
 	"kind" : "cache",
