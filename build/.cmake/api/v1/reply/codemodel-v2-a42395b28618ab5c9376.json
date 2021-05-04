@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "2_FlexibleArrayMembers",
+					"build" : "3_ComplexNumberTypes",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "2_FlexibleArrayMembers"
+					"source" : "3_ComplexNumberTypes"
 				},
 				{
-					"build" : "2_FlexibleArrayMembers/src",
+					"build" : "3_ComplexNumberTypes/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "2_FlexibleArrayMembers/src",
+					"source" : "3_ComplexNumberTypes/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "2_FlexibleArrayMembers/app",
+					"build" : "3_ComplexNumberTypes/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "2_FlexibleArrayMembers/app",
+					"source" : "3_ComplexNumberTypes/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "FlexibleArrayMembers_Project",
+					"name" : "ComplexNumberTypes_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "FlexibleArrayMembers_Executable::@b5fe94362b2a7ba8d177",
-					"jsonFile" : "target-FlexibleArrayMembers_Executable-Debug-0d4692785556f7018c03.json",
-					"name" : "FlexibleArrayMembers_Executable",
+					"id" : "ComplexNumberTypes_Executable::@8596462e9a102b3e3ec8",
+					"jsonFile" : "target-ComplexNumberTypes_Executable-Debug-17714d407a443e4e4e26.json",
+					"name" : "ComplexNumberTypes_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "FlexibleArrayMembers_MyLib::@0304fea7807cd0a47d66",
-					"jsonFile" : "target-FlexibleArrayMembers_MyLib-Debug-f670e201de33e897a03b.json",
-					"name" : "FlexibleArrayMembers_MyLib",
+					"id" : "ComplexNumberTypes_MyLib::@61972c9101eaa3796caf",
+					"jsonFile" : "target-ComplexNumberTypes_MyLib-Debug-556213e0bcd36786e748.json",
+					"name" : "ComplexNumberTypes_MyLib",
 					"projectIndex" : 1
 				}
 			]

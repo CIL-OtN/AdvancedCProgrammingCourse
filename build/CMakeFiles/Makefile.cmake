@@ -24,9 +24,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-3.20/Modules/Platform/WindowsPaths.cmake"
-  "../2_FlexibleArrayMembers/CMakeLists.txt"
-  "../2_FlexibleArrayMembers/app/CMakeLists.txt"
-  "../2_FlexibleArrayMembers/src/CMakeLists.txt"
+  "../3_ComplexNumberTypes/CMakeLists.txt"
+  "../3_ComplexNumberTypes/app/CMakeLists.txt"
+  "../3_ComplexNumberTypes/src/CMakeLists.txt"
   "../CMakeLists.txt"
   "CMakeFiles/3.20.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.1/CMakeRCCompiler.cmake"
@@ -42,13 +42,13 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "2_FlexibleArrayMembers/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "2_FlexibleArrayMembers/src/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "2_FlexibleArrayMembers/app/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3_ComplexNumberTypes/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3_ComplexNumberTypes/src/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "3_ComplexNumberTypes/app/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/DependInfo.cmake"
-  "2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/DependInfo.cmake"
+  "3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/DependInfo.cmake"
+  "3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/DependInfo.cmake"
   )

@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\\CMakeFiles\progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\3_ComplexNumberTypes\\CMakeFiles\progress.marks
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 clean
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,44 +102,18 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 preinstall
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
-
-#=============================================================================
-# Target rules for targets named ComplexNumberTypes_MyLib
-
-# Build rule for target.
-ComplexNumberTypes_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ComplexNumberTypes_MyLib
-.PHONY : ComplexNumberTypes_MyLib
-
-# fast build rule for target.
-ComplexNumberTypes_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/build
-.PHONY : ComplexNumberTypes_MyLib/fast
-
-#=============================================================================
-# Target rules for targets named ComplexNumberTypes_Executable
-
-# Build rule for target.
-ComplexNumberTypes_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ComplexNumberTypes_Executable
-.PHONY : ComplexNumberTypes_Executable
-
-# fast build rule for target.
-ComplexNumberTypes_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/build
-.PHONY : ComplexNumberTypes_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +123,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ComplexNumberTypes_Executable
-	@echo ... ComplexNumberTypes_MyLib
 .PHONY : help
 
 
@@ -162,6 +134,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

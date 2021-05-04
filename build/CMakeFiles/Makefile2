@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCour
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: 2_FlexibleArrayMembers/all
+all: 3_ComplexNumberTypes/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 2_FlexibleArrayMembers/preinstall
+preinstall: 3_ComplexNumberTypes/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: 2_FlexibleArrayMembers/clean
+clean: 3_ComplexNumberTypes/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 2_FlexibleArrayMembers
+# Directory level rules for directory 3_ComplexNumberTypes
 
 # Recursive "all" directory target.
-2_FlexibleArrayMembers/all: 2_FlexibleArrayMembers/src/all
-2_FlexibleArrayMembers/all: 2_FlexibleArrayMembers/app/all
-.PHONY : 2_FlexibleArrayMembers/all
+3_ComplexNumberTypes/all: 3_ComplexNumberTypes/src/all
+3_ComplexNumberTypes/all: 3_ComplexNumberTypes/app/all
+.PHONY : 3_ComplexNumberTypes/all
 
 # Recursive "preinstall" directory target.
-2_FlexibleArrayMembers/preinstall: 2_FlexibleArrayMembers/src/preinstall
-2_FlexibleArrayMembers/preinstall: 2_FlexibleArrayMembers/app/preinstall
-.PHONY : 2_FlexibleArrayMembers/preinstall
+3_ComplexNumberTypes/preinstall: 3_ComplexNumberTypes/src/preinstall
+3_ComplexNumberTypes/preinstall: 3_ComplexNumberTypes/app/preinstall
+.PHONY : 3_ComplexNumberTypes/preinstall
 
 # Recursive "clean" directory target.
-2_FlexibleArrayMembers/clean: 2_FlexibleArrayMembers/src/clean
-2_FlexibleArrayMembers/clean: 2_FlexibleArrayMembers/app/clean
-.PHONY : 2_FlexibleArrayMembers/clean
+3_ComplexNumberTypes/clean: 3_ComplexNumberTypes/src/clean
+3_ComplexNumberTypes/clean: 3_ComplexNumberTypes/app/clean
+.PHONY : 3_ComplexNumberTypes/clean
 
 #=============================================================================
-# Directory level rules for directory 2_FlexibleArrayMembers/app
+# Directory level rules for directory 3_ComplexNumberTypes/app
 
 # Recursive "all" directory target.
-2_FlexibleArrayMembers/app/all: 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/all
-.PHONY : 2_FlexibleArrayMembers/app/all
+3_ComplexNumberTypes/app/all: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
+.PHONY : 3_ComplexNumberTypes/app/all
 
 # Recursive "preinstall" directory target.
-2_FlexibleArrayMembers/app/preinstall:
-.PHONY : 2_FlexibleArrayMembers/app/preinstall
+3_ComplexNumberTypes/app/preinstall:
+.PHONY : 3_ComplexNumberTypes/app/preinstall
 
 # Recursive "clean" directory target.
-2_FlexibleArrayMembers/app/clean: 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/clean
-.PHONY : 2_FlexibleArrayMembers/app/clean
+3_ComplexNumberTypes/app/clean: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
+.PHONY : 3_ComplexNumberTypes/app/clean
 
 #=============================================================================
-# Directory level rules for directory 2_FlexibleArrayMembers/src
+# Directory level rules for directory 3_ComplexNumberTypes/src
 
 # Recursive "all" directory target.
-2_FlexibleArrayMembers/src/all: 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/all
-.PHONY : 2_FlexibleArrayMembers/src/all
+3_ComplexNumberTypes/src/all: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
+.PHONY : 3_ComplexNumberTypes/src/all
 
 # Recursive "preinstall" directory target.
-2_FlexibleArrayMembers/src/preinstall:
-.PHONY : 2_FlexibleArrayMembers/src/preinstall
+3_ComplexNumberTypes/src/preinstall:
+.PHONY : 3_ComplexNumberTypes/src/preinstall
 
 # Recursive "clean" directory target.
-2_FlexibleArrayMembers/src/clean: 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/clean
-.PHONY : 2_FlexibleArrayMembers/src/clean
+3_ComplexNumberTypes/src/clean: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
+.PHONY : 3_ComplexNumberTypes/src/clean
 
 #=============================================================================
-# Target rules for target 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir
+# Target rules for target 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir
 
 # All Build rule for target.
-2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\src\CMakeFiles\FlexibleArrayMembers_MyLib.dir\build.make 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\src\CMakeFiles\FlexibleArrayMembers_MyLib.dir\build.make 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=3 "Built target FlexibleArrayMembers_MyLib"
-.PHONY : 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/all
+3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=3 "Built target ComplexNumberTypes_MyLib"
+.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/rule: cmake_check_build_system
+3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 0
-.PHONY : 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/rule
+.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule
 
 # Convenience name for target.
-FlexibleArrayMembers_MyLib: 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/rule
-.PHONY : FlexibleArrayMembers_MyLib
+ComplexNumberTypes_MyLib: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule
+.PHONY : ComplexNumberTypes_MyLib
 
 # clean rule for target.
-2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\src\CMakeFiles\FlexibleArrayMembers_MyLib.dir\build.make 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/clean
-.PHONY : 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/clean
+3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
+.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir
+# Target rules for target 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir
 
 # All Build rule for target.
-2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/all: 2_FlexibleArrayMembers/src/CMakeFiles/FlexibleArrayMembers_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\app\CMakeFiles\FlexibleArrayMembers_Executable.dir\build.make 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\app\CMakeFiles\FlexibleArrayMembers_Executable.dir\build.make 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=1,2 "Built target FlexibleArrayMembers_Executable"
-.PHONY : 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/all
+3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=1,2 "Built target ComplexNumberTypes_Executable"
+.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/rule: cmake_check_build_system
+3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 0
-.PHONY : 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/rule
+.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule
 
 # Convenience name for target.
-FlexibleArrayMembers_Executable: 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/rule
-.PHONY : FlexibleArrayMembers_Executable
+ComplexNumberTypes_Executable: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule
+.PHONY : ComplexNumberTypes_Executable
 
 # clean rule for target.
-2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 2_FlexibleArrayMembers\app\CMakeFiles\FlexibleArrayMembers_Executable.dir\build.make 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/clean
-.PHONY : 2_FlexibleArrayMembers/app/CMakeFiles/FlexibleArrayMembers_Executable.dir/clean
+3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
+.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

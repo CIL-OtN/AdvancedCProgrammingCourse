@@ -1234,6 +1234,30 @@
 			"value" : "FALSE"
 		},
 		{
+			"name" : "ComplexNumberTypes_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/3_ComplexNumberTypes"
+		},
+		{
+			"name" : "ComplexNumberTypes_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/3_ComplexNumberTypes"
+		},
+		{
 			"name" : "FlexibleArrayMembers_Project_BINARY_DIR",
 			"properties" : 
 			[

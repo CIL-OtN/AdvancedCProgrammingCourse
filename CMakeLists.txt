@@ -6,4 +6,6 @@ project(AdvancedCProgrammingCourse VERSION 1.0.0 LANGUAGES C)
 
 # add_subdirectory("1_VariableLenghtArrays")
 
-add_subdirectory("2_FlexibleArrayMembers")
+# add_subdirectory("2_FlexibleArrayMembers")
+
+add_subdirectory("3_ComplexNumberTypes")
