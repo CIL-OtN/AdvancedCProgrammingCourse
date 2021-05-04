@@ -18,7 +18,7 @@
 					"source" : "."
 				},
 				{
-					"build" : "1_Variable_Lenght_Arrays",
+					"build" : "2_FlexibleArrayMembers",
 					"childIndexes" : 
 					[
 						2,
@@ -30,31 +30,31 @@
 					},
 					"parentIndex" : 0,
 					"projectIndex" : 1,
-					"source" : "1_Variable_Lenght_Arrays"
+					"source" : "2_FlexibleArrayMembers"
 				},
 				{
-					"build" : "1_Variable_Lenght_Arrays/src",
+					"build" : "2_FlexibleArrayMembers/src",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "1_Variable_Lenght_Arrays/src",
+					"source" : "2_FlexibleArrayMembers/src",
 					"targetIndexes" : 
 					[
 						1
 					]
 				},
 				{
-					"build" : "1_Variable_Lenght_Arrays/app",
+					"build" : "2_FlexibleArrayMembers/app",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.12"
 					},
 					"parentIndex" : 1,
 					"projectIndex" : 1,
-					"source" : "1_Variable_Lenght_Arrays/app",
+					"source" : "2_FlexibleArrayMembers/app",
 					"targetIndexes" : 
 					[
 						0
@@ -82,7 +82,7 @@
 						2,
 						3
 					],
-					"name" : "VariableLenghtArrays_Project",
+					"name" : "FlexibleArrayMembers_Project",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
@@ -95,16 +95,16 @@
 			[
 				{
 					"directoryIndex" : 3,
-					"id" : "VariableLenghtArrays_Executable::@65575a81fbb4340c914b",
-					"jsonFile" : "target-VariableLenghtArrays_Executable-Debug-b1d725da9402171db0e3.json",
-					"name" : "VariableLenghtArrays_Executable",
+					"id" : "FlexibleArrayMembers_Executable::@b5fe94362b2a7ba8d177",
+					"jsonFile" : "target-FlexibleArrayMembers_Executable-Debug-0d4692785556f7018c03.json",
+					"name" : "FlexibleArrayMembers_Executable",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
-					"id" : "VariableLenghtArrays_MyLib::@85148b32a149bd03ba41",
-					"jsonFile" : "target-VariableLenghtArrays_MyLib-Debug-b4b972c12ffbe1aff3dc.json",
-					"name" : "VariableLenghtArrays_MyLib",
+					"id" : "FlexibleArrayMembers_MyLib::@0304fea7807cd0a47d66",
+					"jsonFile" : "target-FlexibleArrayMembers_MyLib-Debug-f670e201de33e897a03b.json",
+					"name" : "FlexibleArrayMembers_MyLib",
 					"projectIndex" : 1
 				}
 			]

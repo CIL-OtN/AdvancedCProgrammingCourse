@@ -34,12 +34,12 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "C:/cygwin64/bin/objdump.exe")
+  set(CMAKE_OBJDUMP "C:/MinGW/bin/objdump.exe")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays/cmake_install.cmake")
+  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/2_FlexibleArrayMembers/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

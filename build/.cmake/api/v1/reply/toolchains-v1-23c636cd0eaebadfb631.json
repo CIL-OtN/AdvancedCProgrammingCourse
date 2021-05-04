@@ -10,33 +10,40 @@
 				{
 					"includeDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-pc-cygwin/10/include",
-						"/usr/include",
-						"/usr/include/w32api"
+						"C:/MinGW/lib/gcc/mingw32/9.2.0/include",
+						"C:/MinGW/include",
+						"C:/MinGW/lib/gcc/mingw32/9.2.0/include-fixed"
 					],
 					"linkDirectories" : 
 					[
-						"/usr/lib/gcc/x86_64-pc-cygwin/10",
-						"/usr/x86_64-pc-cygwin/lib",
-						"/usr/lib",
-						"/lib"
+						"C:/MinGW/lib/gcc/mingw32/9.2.0",
+						"C:/MinGW/lib/gcc",
+						"C:/MinGW/mingw32/lib",
+						"C:/MinGW/lib"
 					],
 					"linkFrameworkDirectories" : [],
 					"linkLibraries" : 
 					[
-						"gcc_s",
+						"mingw32",
+						"mingwex",
+						"mingw32",
+						"mingwex",
 						"gcc",
-						"cygwin",
+						"moldname",
 						"advapi32",
 						"shell32",
 						"user32",
 						"kernel32",
-						"gcc_s",
-						"gcc"
+						"mingw32",
+						"mingwex",
+						"mingw32",
+						"mingwex",
+						"gcc",
+						"moldname"
 					]
 				},
-				"path" : "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe",
-				"version" : "10.2.0"
+				"path" : "C:/MinGW/bin/mingw32-gcc.exe",
+				"version" : "9.2.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -49,7 +56,7 @@
 			"compiler" : 
 			{
 				"implicit" : {},
-				"path" : "x86_64-pc-cygwin-windres"
+				"path" : "C:/cygwin64/bin/windres.exe"
 			},
 			"language" : "RC",
 			"sourceFileExtensions" : 

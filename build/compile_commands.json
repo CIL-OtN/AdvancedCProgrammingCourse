@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays/src",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe  @CMakeFiles/VariableLenghtArrays_MyLib.dir/includes_C.rsp -g -o CMakeFiles/VariableLenghtArrays_MyLib.dir/my_lib.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/1_Variable_Lenght_Arrays/src/my_lib.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/1_Variable_Lenght_Arrays/src/my_lib.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/2_FlexibleArrayMembers/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/FlexibleArrayMembers_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\FlexibleArrayMembers_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\2_FlexibleArrayMembers\\src\\my_lib.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/2_FlexibleArrayMembers/src/my_lib.c"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/1_Variable_Lenght_Arrays/app",
-  "command": "C:/cygwin64/bin/x86_64-pc-cygwin-gcc.exe  @CMakeFiles/VariableLenghtArrays_Executable.dir/includes_C.rsp -g -o CMakeFiles/VariableLenghtArrays_Executable.dir/main.c.obj -c C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/1_Variable_Lenght_Arrays/app/main.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/1_Variable_Lenght_Arrays/app/main.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/2_FlexibleArrayMembers/app",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/FlexibleArrayMembers_Executable.dir/includes_C.rsp -g -o CMakeFiles\\FlexibleArrayMembers_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\2_FlexibleArrayMembers\\app\\main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/2_FlexibleArrayMembers/app/main.c"
 }
 ]
