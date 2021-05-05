@@ -26,6 +26,30 @@
 			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse"
 		},
 		{
+			"name" : "B-Dummy_Project_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/B-Dummy"
+		},
+		{
+			"name" : "B-Dummy_Project_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/B-Dummy"
+		},
+		{
 			"name" : "BasicStructure_Project_BINARY_DIR",
 			"properties" : 
 			[
@@ -35,7 +59,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/2_FlexibleArrayMembers"
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure"
 		},
 		{
 			"name" : "BasicStructure_Project_SOURCE_DIR",
@@ -47,7 +71,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/2_FlexibleArrayMembers"
+			"value" : "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure"
 		},
 		{
 			"name" : "CMAKE_ADDR2LINE",

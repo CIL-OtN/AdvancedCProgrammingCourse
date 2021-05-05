@@ -116,30 +116,30 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ComplexNumberTypes_MyLib
+# Target rules for targets named B-Dummy_MyLib
 
 # Build rule for target.
-ComplexNumberTypes_MyLib: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ComplexNumberTypes_MyLib
-.PHONY : ComplexNumberTypes_MyLib
+B-Dummy_MyLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B-Dummy_MyLib
+.PHONY : B-Dummy_MyLib
 
 # fast build rule for target.
-ComplexNumberTypes_MyLib/fast:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/build
-.PHONY : ComplexNumberTypes_MyLib/fast
+B-Dummy_MyLib/fast:
+	$(MAKE) $(MAKESILENT) -f B-Dummy\src\CMakeFiles\B-Dummy_MyLib.dir\build.make B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/build
+.PHONY : B-Dummy_MyLib/fast
 
 #=============================================================================
-# Target rules for targets named ComplexNumberTypes_Executable
+# Target rules for targets named B-Dummy_Executable
 
 # Build rule for target.
-ComplexNumberTypes_Executable: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 ComplexNumberTypes_Executable
-.PHONY : ComplexNumberTypes_Executable
+B-Dummy_Executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B-Dummy_Executable
+.PHONY : B-Dummy_Executable
 
 # fast build rule for target.
-ComplexNumberTypes_Executable/fast:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/build
-.PHONY : ComplexNumberTypes_Executable/fast
+B-Dummy_Executable/fast:
+	$(MAKE) $(MAKESILENT) -f B-Dummy\app\CMakeFiles\B-Dummy_Executable.dir\build.make B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/build
+.PHONY : B-Dummy_Executable/fast
 
 # Help Target
 help:
@@ -149,8 +149,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... ComplexNumberTypes_Executable
-	@echo ... ComplexNumberTypes_MyLib
+	@echo ... B-Dummy_Executable
+	@echo ... B-Dummy_MyLib
 .PHONY : help
 
 

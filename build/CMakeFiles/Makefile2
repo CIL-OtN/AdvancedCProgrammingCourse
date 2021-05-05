@@ -62,116 +62,116 @@ CMAKE_BINARY_DIR = C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCour
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: 3_ComplexNumberTypes/all
+all: B-Dummy/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: 3_ComplexNumberTypes/preinstall
+preinstall: B-Dummy/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: 3_ComplexNumberTypes/clean
+clean: B-Dummy/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory 3_ComplexNumberTypes
+# Directory level rules for directory B-Dummy
 
 # Recursive "all" directory target.
-3_ComplexNumberTypes/all: 3_ComplexNumberTypes/src/all
-3_ComplexNumberTypes/all: 3_ComplexNumberTypes/app/all
-.PHONY : 3_ComplexNumberTypes/all
+B-Dummy/all: B-Dummy/src/all
+B-Dummy/all: B-Dummy/app/all
+.PHONY : B-Dummy/all
 
 # Recursive "preinstall" directory target.
-3_ComplexNumberTypes/preinstall: 3_ComplexNumberTypes/src/preinstall
-3_ComplexNumberTypes/preinstall: 3_ComplexNumberTypes/app/preinstall
-.PHONY : 3_ComplexNumberTypes/preinstall
+B-Dummy/preinstall: B-Dummy/src/preinstall
+B-Dummy/preinstall: B-Dummy/app/preinstall
+.PHONY : B-Dummy/preinstall
 
 # Recursive "clean" directory target.
-3_ComplexNumberTypes/clean: 3_ComplexNumberTypes/src/clean
-3_ComplexNumberTypes/clean: 3_ComplexNumberTypes/app/clean
-.PHONY : 3_ComplexNumberTypes/clean
+B-Dummy/clean: B-Dummy/src/clean
+B-Dummy/clean: B-Dummy/app/clean
+.PHONY : B-Dummy/clean
 
 #=============================================================================
-# Directory level rules for directory 3_ComplexNumberTypes/app
+# Directory level rules for directory B-Dummy/app
 
 # Recursive "all" directory target.
-3_ComplexNumberTypes/app/all: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
-.PHONY : 3_ComplexNumberTypes/app/all
+B-Dummy/app/all: B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/all
+.PHONY : B-Dummy/app/all
 
 # Recursive "preinstall" directory target.
-3_ComplexNumberTypes/app/preinstall:
-.PHONY : 3_ComplexNumberTypes/app/preinstall
+B-Dummy/app/preinstall:
+.PHONY : B-Dummy/app/preinstall
 
 # Recursive "clean" directory target.
-3_ComplexNumberTypes/app/clean: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
-.PHONY : 3_ComplexNumberTypes/app/clean
+B-Dummy/app/clean: B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/clean
+.PHONY : B-Dummy/app/clean
 
 #=============================================================================
-# Directory level rules for directory 3_ComplexNumberTypes/src
+# Directory level rules for directory B-Dummy/src
 
 # Recursive "all" directory target.
-3_ComplexNumberTypes/src/all: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
-.PHONY : 3_ComplexNumberTypes/src/all
+B-Dummy/src/all: B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/all
+.PHONY : B-Dummy/src/all
 
 # Recursive "preinstall" directory target.
-3_ComplexNumberTypes/src/preinstall:
-.PHONY : 3_ComplexNumberTypes/src/preinstall
+B-Dummy/src/preinstall:
+.PHONY : B-Dummy/src/preinstall
 
 # Recursive "clean" directory target.
-3_ComplexNumberTypes/src/clean: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
-.PHONY : 3_ComplexNumberTypes/src/clean
+B-Dummy/src/clean: B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/clean
+.PHONY : B-Dummy/src/clean
 
 #=============================================================================
-# Target rules for target 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir
+# Target rules for target B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir
 
 # All Build rule for target.
-3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/depend
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=3 "Built target ComplexNumberTypes_MyLib"
-.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
+B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/all:
+	$(MAKE) $(MAKESILENT) -f B-Dummy\src\CMakeFiles\B-Dummy_MyLib.dir\build.make B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/depend
+	$(MAKE) $(MAKESILENT) -f B-Dummy\src\CMakeFiles\B-Dummy_MyLib.dir\build.make B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=3 "Built target B-Dummy_MyLib"
+.PHONY : B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/all
 
 # Build rule for subdir invocation for target.
-3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule: cmake_check_build_system
+B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 1
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 0
-.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule
+.PHONY : B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/rule
 
 # Convenience name for target.
-ComplexNumberTypes_MyLib: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/rule
-.PHONY : ComplexNumberTypes_MyLib
+B-Dummy_MyLib: B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/rule
+.PHONY : B-Dummy_MyLib
 
 # clean rule for target.
-3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\src\CMakeFiles\ComplexNumberTypes_MyLib.dir\build.make 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
-.PHONY : 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/clean
+B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/clean:
+	$(MAKE) $(MAKESILENT) -f B-Dummy\src\CMakeFiles\B-Dummy_MyLib.dir\build.make B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/clean
+.PHONY : B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/clean
 
 #=============================================================================
-# Target rules for target 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir
+# Target rules for target B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir
 
 # All Build rule for target.
-3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all: 3_ComplexNumberTypes/src/CMakeFiles/ComplexNumberTypes_MyLib.dir/all
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/depend
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=1,2 "Built target ComplexNumberTypes_Executable"
-.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
+B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/all: B-Dummy/src/CMakeFiles/B-Dummy_MyLib.dir/all
+	$(MAKE) $(MAKESILENT) -f B-Dummy\app\CMakeFiles\B-Dummy_Executable.dir\build.make B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/depend
+	$(MAKE) $(MAKESILENT) -f B-Dummy\app\CMakeFiles\B-Dummy_Executable.dir\build.make B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles --progress-num=1,2 "Built target B-Dummy_Executable"
+.PHONY : B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/all
 
 # Build rule for subdir invocation for target.
-3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule: cmake_check_build_system
+B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\eywiotosof\Documents\GitHub\AdvancedCProgrammingCourse\build\CMakeFiles 0
-.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule
+.PHONY : B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/rule
 
 # Convenience name for target.
-ComplexNumberTypes_Executable: 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/rule
-.PHONY : ComplexNumberTypes_Executable
+B-Dummy_Executable: B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/rule
+.PHONY : B-Dummy_Executable
 
 # clean rule for target.
-3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean:
-	$(MAKE) $(MAKESILENT) -f 3_ComplexNumberTypes\app\CMakeFiles\ComplexNumberTypes_Executable.dir\build.make 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
-.PHONY : 3_ComplexNumberTypes/app/CMakeFiles/ComplexNumberTypes_Executable.dir/clean
+B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/clean:
+	$(MAKE) $(MAKESILENT) -f B-Dummy\app\CMakeFiles\B-Dummy_Executable.dir\build.make B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/clean
+.PHONY : B-Dummy/app/CMakeFiles/B-Dummy_Executable.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

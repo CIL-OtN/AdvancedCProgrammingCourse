@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/3_ComplexNumberTypes/cmake_install.cmake")
+  include("C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/B-Dummy/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

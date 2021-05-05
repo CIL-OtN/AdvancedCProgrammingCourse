@@ -21,10 +21,16 @@ AdvancedCProgrammingCourse_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHu
 AdvancedCProgrammingCourse_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse
 
 //Value Computed by CMake
-BasicStructure_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/2_FlexibleArrayMembers
+B-Dummy_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/B-Dummy
 
 //Value Computed by CMake
-BasicStructure_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/2_FlexibleArrayMembers
+B-Dummy_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/B-Dummy
+
+//Value Computed by CMake
+BasicStructure_Project_BINARY_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/BasicStructure
+
+//Value Computed by CMake
+BasicStructure_Project_SOURCE_DIR:STATIC=C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/BasicStructure
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/MinGW/bin/addr2line.exe

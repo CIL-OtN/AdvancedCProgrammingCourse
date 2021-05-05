@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <malloc.h>
 #include <string.h>
-
 #include "my_lib.h"
-
-
-// Umschreiben !!!!
 
 struct myArray {
     int len;
@@ -22,12 +18,20 @@ int main() {
 
     size_t size = sizeof(struct myArray);
     m = malloc(size + (sizeof(int) * arraySize));
-
     m->len = arraySize;
-    m->array[0] = 55;
-    m->array[1] =  199;
 
-    printf("Array is: %d : %d \n", m->array[0], m->array[1]);
+    for(int i=0; i < m->len; i++ ) {
+        scanf("%d", &m->array[i]);
+    }
 
+    printf("Array: ");
+    
+    for(int i=0; i < m->len; i++ ) {
+
+        printf("%d ", m->array[i]);
+    }
+    
+    printf("\n");
+ 
     return 0;
 }

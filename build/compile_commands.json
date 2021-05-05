@@ -1,12 +1,12 @@
 [
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/3_ComplexNumberTypes/src",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/ComplexNumberTypes_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\ComplexNumberTypes_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\3_ComplexNumberTypes\\src\\my_lib.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/3_ComplexNumberTypes/src/my_lib.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/B-Dummy/src",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/B-Dummy_MyLib.dir/includes_C.rsp -g -o CMakeFiles\\B-Dummy_MyLib.dir\\my_lib.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\B-Dummy\\src\\my_lib.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/B-Dummy/src/my_lib.c"
 },
 {
-  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/3_ComplexNumberTypes/app",
-  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/ComplexNumberTypes_Executable.dir/includes_C.rsp -g -o CMakeFiles\\ComplexNumberTypes_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\3_ComplexNumberTypes\\app\\main.c",
-  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/3_ComplexNumberTypes/app/main.c"
+  "directory": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/build/B-Dummy/app",
+  "command": "C:\\MinGW\\bin\\mingw32-gcc.exe  @CMakeFiles/B-Dummy_Executable.dir/includes_C.rsp -g -o CMakeFiles\\B-Dummy_Executable.dir\\main.c.obj -c C:\\Users\\eywiotosof\\Documents\\GitHub\\AdvancedCProgrammingCourse\\B-Dummy\\app\\main.c",
+  "file": "C:/Users/eywiotosof/Documents/GitHub/AdvancedCProgrammingCourse/B-Dummy/app/main.c"
 }
 ]
